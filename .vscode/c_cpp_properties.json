@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "name": "STM32 G070RB",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE",
+                "USE_HAL_DRIVER",
+                "STM32G070xx"
+            ],
+            "intelliSenseMode":  "gcc-arm",
+            "compilerPath": "C:/dev/tools/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc.exe",
+            "compilerArgs": [
+                "-mcpu=cortex-m0plus",
+                "mthumb"
+                                
+            ],
+            "cStandard": "c11",
+            "cppStandard": "c++17"
+
+        }
+    ],
+    "version": 4
+}

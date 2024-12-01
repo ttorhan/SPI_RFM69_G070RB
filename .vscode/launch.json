@@ -1,0 +1,22 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Cortex Debug",
+            "cwd": "${workspaceFolder}",
+            "executable": "./build/SPI_RFM69_G070RB.elf",
+            "request": "launch",
+            "type": "cortex-debug",
+            "runToEntryPoint": "",
+            "servertype": "openocd",
+            "device": "STM32G0RB",
+            "configFiles": [
+                "interface/stlink.cfg",
+                "target/stm32g0x.cfg"
+            ]
+        }
+    ]
+}
